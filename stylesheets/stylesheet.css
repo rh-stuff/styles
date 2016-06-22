@@ -9,7 +9,9 @@
 .FoldableInformationHeader th, .PortletHeader th, .InformationHeader th {
   color: #FFF !important;
 }
-
 .FoldableInformationHeader a, .PortletHeader a, .InformationHeader a, .FoldableInformationHeader a:hover, .PortletHeader a:hover, .InformationHeader a:hover {
   color: #00a9ff !important;
+}
+.PortletBox, #tabs_container, #tabs .active, #pageLayOutTabsUL .active, .edit-tabs {
+  background-color: #fff !important;
 }
