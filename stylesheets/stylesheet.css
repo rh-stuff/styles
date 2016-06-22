@@ -29,3 +29,7 @@
 .PortletBox, #tabs_container, #tabs .active, #pageLayOutTabsUL .active, .edit-tabs {
   background-color: #fff !important;
 }
+.datagrid thead, .DatagridTable .DataTableHead, .datagrid thead tr, .DataTableHead th, .DataTableHead.FoldableInformationHeader {
+  background-image: none !important;
+  background-color: #ececec !important;
+}
