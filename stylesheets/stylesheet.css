@@ -4,7 +4,14 @@
   background-image: none !important;
 }
 .ResultsBox, .PortletBox, .InformationBox, #tabs_container {
-  border-color: #55565a !important;
+  border-color: #000 !important;
+}
+.nav-tabs > .active > a, .nav-tabs > .active > a:hover, .ui-tabs > .ui-tabs-nav > li.ui-tabs-selected > a, .ui-tabs > .ui-tabs-nav > li.ui-tabs-selected > a:hover {
+  border: #000 !important;
+  background-color: #55565a !important;
+}
+.nav-tabs > .active > a, .nav-tabs > .active > a:hover, .ui-tabs > .ui-tabs-nav > li.ui-tabs-selected > a, .ui-tabs > .ui-tabs-nav > li.ui-tabs-selected > a:hover {
+  color: #FFF !important;
 }
 .FoldableInformationHeader th, .PortletHeader th, .InformationHeader th {
   color: #FFF !important;
