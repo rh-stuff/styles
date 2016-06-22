@@ -6,6 +6,12 @@
 .ResultsBox, .PortletBox, .InformationBox, #tabs_container {
   border-color: #000 !important;
 }
+.nav-tabs > li > a, .ui-tabs > .ui-tabs-nav > li > a, span.switchBarButtonInactive {
+  background-color: #78797f !important;
+  color: #FFF !important;
+  border: 1px solid #000 !important;
+  border-bottom: none !important;
+}
 .nav-tabs > .active > a, .nav-tabs > .active > a:hover, .ui-tabs > .ui-tabs-nav > li.ui-tabs-selected > a, .ui-tabs > .ui-tabs-nav > li.ui-tabs-selected > a:hover {
   border: 1px solid #000 !important;
   border-bottom: 0 !important;
@@ -13,12 +19,6 @@
 }
 .nav-tabs > .active > a, .nav-tabs > .active > a:hover, .ui-tabs > .ui-tabs-nav > li.ui-tabs-selected > a, .ui-tabs > .ui-tabs-nav > li.ui-tabs-selected > a:hover {
   color: #FFF !important;
-}
-.nav-tabs > li > a:hover, .nav-tabs li.dropdown.open.active > a:hover {
-  background-color: #78797f !important;
-  color: #FFF !important;
-  border: 1px solid #000 !important;
-  border-bottom: none !important;
 }
 .FoldableInformationHeader th, .PortletHeader th, .InformationHeader th {
   color: #FFF !important;
